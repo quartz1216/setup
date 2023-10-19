@@ -3,6 +3,8 @@
 ~Alt & WheelUp::ShiftAltTab
 LWin & WheelDown::#^Right
 LWin & WheelUp::#^Left
+#m::WinMaximize "A"
+#h::WinMinimize "A"
 #q::!F4
 
 !#v::{
