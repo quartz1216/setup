@@ -7,9 +7,17 @@ LWin & WheelUp::#^Left
 #h::WinMinimize "A"
 #q::!F4
 
+!Enter::+F10
+
 !#v::{
 Run "C:\Program Files\Google\NearbyShare\nearby_share.exe"
 Sleep 1000
 Send "^v"
+Return
+}
+
+!+^v::{ 
+clipboard := A_Clipboard
+Send A_Clipboard
 Return
 }
